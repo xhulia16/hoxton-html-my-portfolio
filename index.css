@@ -22,3 +22,17 @@
           place-items: center;
           width: 300px;
       }
+
+      .projects {
+        background-color: darkorchid;
+        display: grid;
+    place-items: center;
+        padding: 6rem 1rem;
+      }
+
+    ul{
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; 
+
+    }
