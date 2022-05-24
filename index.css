@@ -2,15 +2,29 @@
     padding: 0;
     box-sizing: border-box;
     }
+    
     .header {
-        background-color: coral;
-        display: grid;
-    place-items: center;
-        padding: 0.5rem 1rem;
+        background-color: rgb(53, 12, 37);
+    padding: 0.5rem 1rem;
       }
 
+      .header-links{
+        background-color: rgb(153, 17, 58);;
+        display: grid;
+        grid-auto-flow: column;
+        padding: 20px;
+        list-style: none;
+        border-radius: 2px;
+    }
+
+    a{
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(241, 231, 231);
+
+    }
+    
       .main {
-        background-color: cornflowerblue;
+        background-color: rgb(86, 39, 92);
         display: grid;
     place-items: center;
         padding: 15rem 1rem;
@@ -18,9 +32,12 @@
       
       .description{
           display:grid;
-          background-color: indigo;
+          background-color: rgb(153, 17, 58);
+          color:rgb(241, 231, 231);
           place-items: center;
-          width: 300px;
+          width: 500px;
+          font-family: 'Courier New', Courier, monospace;
+          border: 8px double rgb(53, 12, 37);
       }
 
       .projects {
@@ -37,15 +54,12 @@
         padding: 6rem 1rem;
       }
 
-      ul{
-        list-style: none;
-        display: grid;
-        grid-template-columns: auto 1fr auto; 
+       
 
-    }
+  
 
     .footer{
-        background-color: coral;
+        background-color: rgb(153, 17, 58);
         display: grid;
     place-items: center;
         padding: 0.5rem 1rem;
